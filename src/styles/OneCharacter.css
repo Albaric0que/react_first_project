@@ -1,0 +1,9 @@
+.basic-btn{
+    width: 80px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #8498D6;
+    color: white;
+    border: none;
+}
