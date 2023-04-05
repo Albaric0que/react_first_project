@@ -11,7 +11,7 @@ beforeEach(() => {
 });
 
 test("get characterListImg", async () => {
-  const characterImg = await screen.findByRole("img");
+  const characterImg = await screen.findByRole("img", { name: "Rick Sanchez" });
   expect(characterImg).toBeInTheDocument();
 });
 
